@@ -10,14 +10,14 @@ public:
         Node* next;
     };
 
-    LinkedList();                        
-    LinkedList(const LinkedList& other); 
-    LinkedList& operator=(LinkedList rhs); 
-    ~LinkedList();                       
+    LinkedList();
+    LinkedList(const LinkedList& other);
+    LinkedList& operator=(LinkedList rhs);
+    ~LinkedList();
 
-    void prepend(int value);              
-    void append(int value);               
-    int  removeFront();                   
+    void prepend(int value);
+    void append(int value);
+    int  removeFront();
     bool isEmpty() const;
     Node* getHead() const { return head; }
     void setHead(Node* newHead) { head = newHead; }
